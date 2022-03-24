@@ -30,7 +30,7 @@ nav h1 {
   position: relative;
   letter-spacing: 0.2rem;
   color: rgb(37, 40, 57);
-  -webkit-text-stroke: 0.2vw rgb(56, 61, 82);
+  -webkit-text-stroke: 0.4rem rgb(31, 33, 63);
   text-transform: uppercase;
 }
 
@@ -38,11 +38,11 @@ nav h1::before {
   content: attr(data-text);
   position: absolute;
   height: 100%;
-  color: rgb(182, 103, 241);
-  -webkit-text-stroke: 0vw rgb(56, 61, 82);
-  border-right: 2px solid rgb(182, 103, 241);
+  color: rgb(240, 174, 208);
+  -webkit-text-stroke: 0rem rgb(31, 33, 63);
+  border-right: 2px solid rgb(240, 174, 208);
   overflow: hidden;
-  animation: animate 5s linear infinite;
+  animation: animate 8s linear infinite;
 }
 
 @keyframes animate {
@@ -62,7 +62,7 @@ nav button {
   border: none;
   color: white;
   cursor: pointer;
-  border-radius: 1rem;
+  border-radius: 0.7rem;
 }
 
 .colors {
